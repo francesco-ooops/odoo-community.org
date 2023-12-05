@@ -3,7 +3,7 @@
 ##################################
 
 .. |TITLE| replace:: OCA Guidelines
-.. |DATE| replace:: 2018/08/24
+.. |DATE| replace:: 2023/12/05
 
 .. contents:: Table of contents
     :depth: 4
@@ -49,6 +49,8 @@ Modules
   * Make sure it has the `license` and `images` keys.
   * Make sure the text `,Odoo Community Association (OCA)` is appended to the
     `author` text.
+  * When you open a PR for a fix/improvement of an existing module, please do not change `author` text as it's reserved for original module creators. 
+    Use file `contributors` instead.
   * The `website` key must be `https://github.com/OCA/<repo>`,
     so as to provide the most relevant link to discover more information about the addon.
     That link shows the repository README. Alternatively `https://github.com/OCA/<repo>/tree/<branch>/<addon>`
